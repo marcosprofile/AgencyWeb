@@ -90,6 +90,10 @@ ul {
   background: var(--primary);
 }
 
+.btn__primary.cta {
+  font-size: 20px;
+}
+
 .dropdown::after {
   content: "\f107";
   font-family: var(--font-icons);
