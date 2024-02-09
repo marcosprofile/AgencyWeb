@@ -76,11 +76,12 @@ ul {
   background: none;
 }
 
-.link, .btn__secondary {
+.link {
   color: var(--black);
 }
 
 .btn__secondary {
+  color: var(--primary);
   border-style: inset;
   border: 1px solid var(--primary);
 }
