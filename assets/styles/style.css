@@ -181,12 +181,38 @@ ul {
 }
 
 .activity {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .activity__card {
+  border-radius: 32px;
   padding: 48px 32px;
+  transition: all .2s ease;
+  background: var(--white);
 }
+
+.activity__card:hover {
+  box-shadow: var(--card-shadow);
+  transform: translateY(-12px);
+}
+
+.link__card {
+  width: max-content;
+  border-radius: 12px;
+  padding: 16px 24px;
+  color: var(--black);
+  font-family: var(--font-secondary);
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.activity__card:hover .link__card {
+  background: var(--orange);
+  color: var(--white);
+}
+
 
 .activity__card-info .image {
   width: 94px;
