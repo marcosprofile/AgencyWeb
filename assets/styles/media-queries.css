@@ -7,6 +7,15 @@
     display: none !important;
   }
 
+  ul li {
+    width: 100%;
+  }
+
+  .link, .btn__primary, .btn__secondary, .btn__tertiary {
+    width: 100%;
+    justify-content: center;
+  }
+
   /* #01 SECTION */
   .get__started {
     padding: 24px 16px 120px 24px;
@@ -68,13 +77,17 @@
   .projects {
     margin-top: 40px;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 80px;
     justify-content: center;
   }
 
   .projects div {
     width: 100%;
     max-width: 460px;
+  }
+
+  .projects .gap-80 {
+    gap: 80px;
   }
 
   .project {

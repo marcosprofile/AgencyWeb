@@ -26,19 +26,22 @@
       <a href="#home" class="logo">
         <p>Design<span>AGENCY</span></p>
       </a>
-      <i class="fas fa-solid fa-bars"></i>
-      <ul class="flex gap-24">
+      <button class="menu" onclick="showMenu()">
+        <i class="fa-solid fa-bars open"></i>
+        <i class="fa-solid fa-xmark close esconder"></i>
+      </button>
+      <ul class="flex gap-24" id="menu">
         <li>
-          <button href="" class="btn__tertiary dropdown">Services</button>
+          <button href="" class="btn__tertiary dropdown" onclick="showMenu()">Services</button>
         </li>
         <li>
-          <a href="#about" class="link">About Us</a>
+          <a href="#about" class="link" onclick="showMenu()">About Us</a>
         </li>
         <li>
-          <a href="#projects" class="link">Projects</a>
+          <a href="#projects" class="link" onclick="showMenu()">Projects</a>
         </li>
         <li>
-          <a href="#contact" class="link">Contact Us</a>
+          <a href="#contact" class="link" onclick="showMenu()">Contact Us</a>
         </li>
         <li>
           <button href="#" class="btn__secondary">Login</button>
@@ -328,6 +331,8 @@
       Copyright Design Agency 2024
     </div>
   </footer>
+
+  <script src="assets/script.js"></script>
 </body>
 
 </html>
