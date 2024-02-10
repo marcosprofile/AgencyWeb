@@ -1,7 +1,7 @@
 # Landing Page - Agency Web
 > 🔗 Projeto: <https://agency-web-cyan.vercel.app/>
 
-Projeto encontrado na comunidade do figma, desenvolvido apenas para desktop com o intuito de aperfeiçoar meus conhecimentos na construção de layouts com HTML e CSS.
+Projeto encontrado na comunidade do figma, desenvolvido com o intuito de aperfeiçoar meus conhecimentos na construção de layouts com HTML e CSS.
 
 <br>
 
