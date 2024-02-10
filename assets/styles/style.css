@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 150%;
 }
 
 html {
@@ -12,7 +13,6 @@ html {
 
 body {
   font-family: var(--font-primary);
-  line-height: 150%;
   color: var(--black);
 }
 
@@ -26,9 +26,8 @@ body {
 }
 
 .logo {
-  font-size: 24px;
+  font-size: var(--size-24);
   font-weight: 900;
-  line-height: 156%;
   text-decoration: none !important;
   color: var(--black);
 }
@@ -64,7 +63,7 @@ ul {
   height: 48px;
   border-radius: 10px;
   font-family: var(--font-primary);
-  font-size: 16px;
+  font-size: var(--size-16);
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
@@ -92,13 +91,13 @@ ul {
 }
 
 .btn__primary.cta {
-  font-size: 20px;
+  font-size: var(--size-20);
 }
 
 .dropdown::after {
   content: "\f107";
   font-family: var(--font-icons);
-  font-size: 18px;
+  font-size: var(--size-18);
 }
 
 .link:hover, .btn__tertiary:hover {
@@ -117,8 +116,7 @@ ul {
 
 /* TEXTS SECTIONS */
 .title__section {
-  font-size: 24px;
-  line-height: 150%;
+  font-size: var(--size-24);
   font-weight: 500;
   color: var(--primary);
   text-transform: uppercase;
@@ -126,14 +124,13 @@ ul {
 }
 
 .subtitle__section {
-  font-size: 32px;
-  line-height: 150%;
+  font-size: var(--size-32);
   font-weight: 600;
   text-transform: capitalize;
 }
 
 .desc__section {
-  font-size: 18px;
+  font-size: var(--size-18);
   color: var(--gray);
   font-family: var(--font-secondary);
   margin-top: 12px;
@@ -147,13 +144,12 @@ ul {
 }
 
 .get__started h1 {
-  font-size: 50px;
+  font-size: var(--size-50);
   line-height: 130%;
 }
 
 .get__started p {
-  font-size: 20px;
-  line-height: 150%;
+  font-size: var(--size-20);
   padding-top: 12px;
 }
 
@@ -203,7 +199,7 @@ ul {
   padding: 16px 24px;
   color: var(--black);
   font-family: var(--font-secondary);
-  font-size: 18px;
+  font-size: var(--size-18);
   text-decoration: none;
   cursor: pointer;
   transition: all .2s ease;
@@ -225,14 +221,12 @@ ul {
 }
 
 .activity__card-info h2 {
-  font-size: 24px;
+  font-size: var(--size-24);
   font-weight: 700;
-  line-height: 156%;
 }
 
 .activity__card-info p {
-  font-size: 18px;
-  line-height: 150%;
+  font-size: var(--size-18);
 }
 
 .arrow-right::after {
@@ -252,14 +246,13 @@ ul {
 }
 
 .avaliations__card-info h2 {
-  font-size: 16px;
+  font-size: var(--size-16);
   margin-top: 12px;
 }
 
 .avaliations__card .destaque {
-  font-size: 40px;
+  font-size: var(--size-40);
   font-weight: 900;
-  line-height: 156%;
   font-family: var(--font-secondary);
   color: var(--primary);
 }
@@ -303,14 +296,12 @@ ul {
 }
 
 .card__comment p, .card__comment .position {
-  font-size: 18px;
-  line-height: 150%;
+  font-size: var(--size-18);
 }
 
 .card__comment .user {
-  font-size: 20px;
+  font-size: var(--size-20);
   font-weight: bold;
-  line-height: 150%;
 }
 
 /* #06 SECTION */
@@ -334,7 +325,7 @@ form {
 }
 
 .contact__input input {
-  font-size: 16px;
+  font-size: var(--size-16);
   font-family: var(--font-secondary);
   border: none;
   width: 100%;
@@ -353,7 +344,7 @@ form {
   border: none;
   border-radius: 10px;
   padding: 8px 24px;
-  font-size: 16px;
+  font-size: var(--size-16);
   font-weight: 600;
   text-decoration: none;
   color: var(--white);
@@ -371,16 +362,12 @@ form {
   padding: 100px;
   background: var(--green);
   font-family: var(--font-secondary);
-  font-size: 20px;
+  font-size: var(--size-20);
   position: relative;
 }
 
 .footer div h2 {
-  font-size: 20px;
-}
-
-.footer p {
-  line-height: 156%;
+  font-size: var(--size-20);
 }
 
 .container {
@@ -389,7 +376,7 @@ form {
 }
 
 .logo__footer {
-  font-size: 40px;
+  font-size: var(--size-40);
 }
 
 .social__links {
@@ -423,7 +410,7 @@ form {
 
 .footer .footer__text {
   width: 100%;
-  font-size: 16px;
+  font-size: var(--size-16);
   font-weight: bold;
   padding: 24px;
   position: absolute;

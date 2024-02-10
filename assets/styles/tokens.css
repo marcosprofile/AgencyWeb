@@ -16,4 +16,26 @@
   --font-primary: Poppins, sans-serif;
   --font-secondary: Nunito Sans, sans-serif;
   --font-icons: FontAwesome, sans-serif;
+
+  /* FONT-SIZE */
+  --size-16: 16px;
+  --size-18: 18px;
+  --size-20: 20px;
+  --size-24: 24px;
+  --size-32: 32px;
+  --size-40: 40px;
+  --size-50: 50px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    /* FONT-SIZE */
+    --size-16: 14px;
+    --size-18: 16px;
+    --size-20: 18px;
+    --size-24: 20px;
+    --size-32: 24px;
+    --size-40: 28px;
+    --size-50: 32px;
+  } 
 }
