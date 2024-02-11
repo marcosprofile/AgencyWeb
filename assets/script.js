@@ -9,3 +9,11 @@ function showMenu() {
   menuClose.classList.toggle('exibir');
   menuClose.classList.toggle('esconder');
 }
+
+function closeMenu() {
+  menu.classList.remove('mobile');
+  menuOpen.classList.add('exibir');
+  menuOpen.classList.remove('esconder');
+  menuClose.classList.add('esconder');
+  menuClose.classList.remove('exibir');
+}
